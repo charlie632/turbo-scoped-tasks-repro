@@ -25,3 +25,13 @@ The difference?
 - --scope="pkg"
 + --scope=pkg
 ```
+
+
+Now, if you run:
+
+```
+cd <root>
+./node_modules/.bin/turbo run build --scope="web"   
+```
+
+it will work?
